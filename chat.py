@@ -4,7 +4,7 @@ from textblob import TextBlob
 import re
 
 # ✅ Configure Gemini API key
-genai.configure(api_key="AIzaSyAeT_lRmlWr3ungRtnz_abjgAnJj64HJQ8")  # Replace with your actual key
+genai.configure(api_key="Replace with your real Gemini key")  # Replace with your actual key
 
 # ✅ Initialize Gemini Model
 model = genai.GenerativeModel("gemini-2.0-flash")
