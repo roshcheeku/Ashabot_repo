@@ -2,7 +2,7 @@ import requests
 import base64
 
 # Path to your PDF file
-file_path = r"C:\Users\drros\OneDrive\Desktop\final ml resume _250110_1243124.pdf"
+file_path = r"pdffile path"
 
 # Read the file and encode it in base64
 with open(file_path, "rb") as file:
@@ -19,7 +19,7 @@ data = {
     "has_files": True,
     "files": [
         {
-            "file_name": "final ml resume _250110_1243124.pdf",
+            "file_name": "pdf path",
             "file_data": file_base64
         }
     ]
