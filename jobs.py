@@ -7,8 +7,8 @@ from google.api_core.exceptions import GoogleAPIError
 app = Flask(_name_)
 
 # Set your API keys
-JOOBLE_API_KEY = '632d9b7b-14d2-4f2d-aec3-6ed2c9b483ae'  # Replace with your actual Jooble API key
-GEMINI_API_KEY = 'AIzaSyDrlfaeNvHQiO6IAkb5-DGa2CSrkxCTq4E'  # Replace with your actual Gemini API key
+JOOBLE_API_KEY = ''  # Replace with your actual Jooble API key
+GEMINI_API_KEY = ''  # Replace with your actual Gemini API key
 
 # Configure Gemini
 genai.configure(api_key=GEMINI_API_KEY)
