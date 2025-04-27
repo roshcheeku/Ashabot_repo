@@ -5,9 +5,9 @@ import requests
 app = Flask(_name_)
 
 # Replace with your actual keys
-API_KEY = 'AIzaSyDrlfaeNvHQiO6IAkb5-DGa2CSrkxCTq4E'
-CSE_ID = 'd168988076f8b4dbd'
-GEMINI_API_KEY = 'AIzaSyDrlfaeNvHQiO6IAkb5-DGa2CSrkxCTq4E'
+API_KEY = ''
+CSE_ID = ''
+GEMINI_API_KEY = ''
 
 genai.configure(api_key=GEMINI_API_KEY)
 
