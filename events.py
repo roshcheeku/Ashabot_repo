@@ -7,9 +7,9 @@ from bs4 import BeautifulSoup
 import google.generativeai as genai
 
 # Replace with your actual API Keys
-GOOGLE_API_KEY = 'AIzaSyDrlfaeNvHQiO6IAkb5-DGa2CSrkxCTq4E'  # Google API Key for Custom Search
-CSE_ID = 'd168988076f8b4dbd'          # Custom Search Engine ID
-GEMINI_API_KEY = 'AIzaSyDrlfaeNvHQiO6IAkb5-DGa2CSrkxCTq4E'  # Gemini API Key (different from Google API Key)
+GOOGLE_API_KEY = ''  # Google API Key for Custom Search
+CSE_ID = ''          # Custom Search Engine ID
+GEMINI_API_KEY = ''  # Gemini API Key (different from Google API Key)
 
 # Configure Gemini
 genai.configure(api_key=GEMINI_API_KEY)
